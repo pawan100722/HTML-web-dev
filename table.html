@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Table Tag</title>
+  </head>
+  <body>
+    <h1>HTML tables</h1>
+
+    <ol>
+      <li>
+        To render tables in html there is a table tag in HTML, <mark>&lt; table &gt;
+        content &lt;/ table &gt;<mark>
+      </li>
+      <li>A table is consist of row and columns. The <mark>&lt; tr &gt; row name &lt; /tr &gt; </mark> tag is used to create table rows</li>
+      <li>The <mark>&lt; td &gt; row name &lt; /td &gt; </mark> tag is used to to insert data in table rows/columns</li>
+      <li>
+        <table>
+          <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Phone</td>
+          </tr>
+          <tr>
+            <td>Pawan</td>
+            <td>22</td>
+            <td>12313212</td>
+          </tr>
+          <tr>
+            <td>Aman</td>
+            <td>23</td>
+            <td>213244</td>
+          </tr>
+        </table>
+      </li>
+      <li>By default table do not have border</li>
+      <li>
+        <dl><dt>Table with border</dt><dd>
+          <table border="">
+            <tr>
+              <td>Name</td>
+              <td>Age</td>
+              <td>Phone</td>
+            </tr>
+            <tr>
+              <td>Pawan</td>
+              <td>22</td>
+              <td>12313212</td>
+            </tr>
+          </table>
+        </dd></dl>
+      </li>
+      
+      <li>
+        <dl><dt>Table with header</dt>
+          <dd>
+          <table border="">
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Phone</th>
+            </tr>
+            <tr>
+              <td>Pawan</td>
+              <td>22</td>
+              <td>12313212</td>
+            </tr>
+          </table>
+        </dd>
+      </dl>
+      </li>
+      <li>There 3 more tags used in tables<li>
+        <li><mark> &lt;thead&gt;, &lt;tbody&gt;, &tfoot&gt; </mark>. These are the sematic tags, they do not add any special visualization to the table. It is not mandatory to use them , but it is best practice to use these tags </li>
+        <li><mark>&lt;caption&gt;</mark>, this tag is used to give caption to the table></li>
+        <dl><dt><dt><dd>
+          <table border="10">
+            <caption>USER Data</caption>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Rohit</td>
+                <td>33</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>#DIV</td>
+                <td>#DIV</td>
+              </tr>
+            </tfoot>
+          </table>
+        </dd></dl>
+    </ol>
+  </body>
+</html>
